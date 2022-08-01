@@ -1,0 +1,40 @@
+        div {
+            color: red;
+            margin: 5px;
+            padding: 10px;
+            border: 1px dotted red;
+            width: 4000px;
+        }
+
+
+    
+        span {
+            color: #00FF00;
+        }
+        .class {
+            color: violet;
+        }
+        #id1 {
+            color:rgb(224, 8, 8)
+        }
+
+        button:hover {
+            color:blue;
+            width:100px;
+            height:100px;
+        }
+
+        input[type=radio]:hover {
+            color: green;
+            width: 100px;
+        }
+
+        @media(max-width: 200px) {
+        body {
+            background-color: green;
+        }
+        @media(min-width: 400px) {
+        body {
+            background-color: cyan;
+        }
+    } 
